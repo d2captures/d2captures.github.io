@@ -4435,7 +4435,7 @@ height: 50px;
   flex-direction: column;
   min-width: 0;
   word-wrap: break-word;
-  background-color: rgb(196, 196, 196);
+  background-color: rgb(219, 219, 219);
   background-clip: border-box;
   border: 1px solid rgba(0, 0, 0, 0.125);
   border-radius: 0.25rem;
@@ -10350,8 +10350,8 @@ body {
 }
 .contact-section .card {
   border: 0;
-  border-top: 0.30rem solid white;
-  border-bottom: 0.30rem solid white;
+  border-top: 0.70rem solid white;
+  border-bottom: 0.70rem solid white;
 }
 .contact-section .card h4 {
   font-size: 0.8rem;
