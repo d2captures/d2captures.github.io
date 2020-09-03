@@ -4280,6 +4280,9 @@ height: 50px;
     padding-left: 0;
   }
 }
+
+
+
 @media (min-width: 1200px) {
   .navbar-expand-xl {
     flex-flow: row nowrap;
@@ -4432,7 +4435,7 @@ height: 50px;
   flex-direction: column;
   min-width: 0;
   word-wrap: break-word;
-  background-color: #fff;
+  background-color: rgb(196, 196, 196);
   background-clip: border-box;
   border: 1px solid rgba(0, 0, 0, 0.125);
   border-radius: 0.25rem;
@@ -10015,7 +10018,7 @@ a.text-black:hover, a.text-black:focus {
 }
 
 .text-black-50 {
-  color: rgba(0, 0, 0, 0.5) !important;
+  color: black !important;
 }
 
 .text-white-50 {
@@ -10310,6 +10313,7 @@ body {
   padding: 3rem;
   font-size: 90%;
 }
+
 @media (min-width: 992px) {
   .projects-section .project-text {
     padding: 5rem;
@@ -10319,6 +10323,7 @@ body {
     border-width: 0.25rem;
     width: 30%;
   }
+  
 }
 
 .signup-section {
@@ -10345,7 +10350,8 @@ body {
 }
 .contact-section .card {
   border: 0;
-  border-bottom: 0.25rem solid #0004ff;
+  border-top: 0.30rem solid white;
+  border-bottom: 0.30rem solid white;
 }
 .contact-section .card h4 {
   font-size: 0.8rem;
@@ -10353,11 +10359,21 @@ body {
   text-transform: uppercase;
   letter-spacing: 0.15rem;
 }
+
 .contact-section .card hr {
-  border-color: #0004ff;
-  border-width: 0.25rem;
-  width: 3rem;
+  border-width: 0.0rem;
+  width: 0rem;
 }
+
+@media (min-width: 992px) {
+  .contact-section .card hr {
+    border-color: #0004ff;
+    border-width: 0.25rem;
+    width: 3rem;
+  }
+
+}
+
 .contact-section .social {
   margin-top: 5rem;
 }
